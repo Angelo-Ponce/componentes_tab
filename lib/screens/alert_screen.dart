@@ -114,7 +114,7 @@ class AlertScreen extends StatelessWidget {
         ]),
       ),
       floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.close),
+          child: const Icon(Icons.close),
           onPressed: () {
             // regresa a la pantalla anterior
             Navigator.pop(context);
